@@ -1,0 +1,26 @@
+{
+  "name": "burger-eaterery",
+  "version": "1.0.0",
+  "description": "A burger eating extravaganza!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yellowduck87/Burger-Eaterery.git"
+  },
+  "author": "Megan EVans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yellowduck87/Burger-Eaterery/issues"
+  },
+  "homepage": "https://github.com/yellowduck87/Burger-Eaterery#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
