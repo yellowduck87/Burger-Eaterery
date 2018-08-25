@@ -2,11 +2,11 @@
 $(function () {
   $("#devour").on("click", function (event) {
     console.log("clicky")
- 
+    
     // Send the PUT request.
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
-      data: newDevour
+      devoured: true
     }).then(
       function () {
         console.log("devoured burger", devour);
