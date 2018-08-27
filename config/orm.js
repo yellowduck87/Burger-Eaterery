@@ -29,7 +29,7 @@ function insertOne(vals, cb) {
 }
 
 function updateOne(condition, cb) {
-    var queryString = "UPDATE burgers SET devoured = " + 1 + " WHERE id = ?";
+    var queryString = "UPDATE burgers SET devoured = true WHERE id = ?";
     connection.query(queryString, [condition], function (err, result) {
         if (err) throw err;
         console.log("res update:" + result);
